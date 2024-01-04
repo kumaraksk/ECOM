@@ -1,0 +1,13 @@
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\bin\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.deps.json
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\bin\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.dll
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\bin\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.pdb
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\bin\Debug\netcoreapp3.1\Shopwell.Core.Service.dll
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\bin\Debug\netcoreapp3.1\Shopwell.Core.Service.pdb
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.csproj.AssemblyReference.cache
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.AssemblyInfoInputs.cache
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.AssemblyInfo.cs
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.csproj.CopyComplete
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.dll
+D:\Projects\Ecom\Shopwell\Shopwell.Infrastructure.Shared\obj\Debug\netcoreapp3.1\Shopwell.Infrastructure.Shared.pdb

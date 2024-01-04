@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-sm navbar-light main-header">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+        width="45%"
+        height="40%"
+        alt="Logo"
+        src="/assets/shopwell.jpg"
+      />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+         <form class="d-flex me-auto">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link link-text active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-text" href="/login" *ngIf="!isUserAuthenticated()">Sign In</a>
+          </li>
+          <li class="nav-item" *ngIf="!isUserAuthenticated()">
+            <a class="nav-link link-text" href="/register">Sign Up</a>
+          </li>
+          <li class="nav-item" *ngIf="isUserAuthenticated()">
+            <a class="nav-link link-text"  (click)="logOut()" href="#">Log out</a>
+          </li>
+
+          <li class="nav-item dropdown" *ngIf="isUserAuthenticated()">
+            <a class="nav-link dropdown-toggle link-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item " href="#">Profile</a></li>
+              <li><a class="dropdown-item " href="#">Address</a></li>
+              <li><a class="dropdown-item " href="#">Orders</a></li>
+            </ul>
+          </li>
+        
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+ 
+  <ng-template #demoModal let-modal>
+    <div class="modal-header modal-header">
+      <h4 class="modal-title shopwell-text" id="modal-basic-title">Login</h4>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <div class="input-group">
+            <input type="email" id="email" name="email" class="form-control mt-2" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="mt-2">Password</label>
+            <div class="input-group">
+              <input type="password" id="password" name="password" class="form-control mt-2" placeholder="Password">
+            </div>
+          </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-primary" (click)="modal.close('Save click')">Login</button>
+    </div>
+  </ng-template>

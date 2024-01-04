@@ -1,0 +1,78 @@
+<div class="row mt-2">
+    <div class="col-md-8 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h3>Register</h3>
+            </div>
+            <div class="card-body">
+                <form *ngIf="!successMsg" class="form" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group mt-2">
+                        <label>First Name</label>
+                        <input type="text" class="form-control  mt-2" formControlName="firstname">
+                        <span class="text-danger"
+                            *ngIf="(registerFormControl.firstname.touched || submitted) && registerFormControl.firstname.errors?.required">
+                            First Name is required
+                        </span>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control  mt-2" formControlName="lastname">
+                        <span class="text-danger"
+                            *ngIf="(registerFormControl.lastname.touched || submitted) && registerFormControl.lastname.errors?.required">
+                            Last Name is required
+                        </span>
+                    </div>
+                    <div class="form-group  mt-2">
+                        <label>Email</label>
+                        <input type="text" class="form-control  mt-2" formControlName="email">
+                        <span class="text-danger"
+                            *ngIf="(registerFormControl.email.touched || submitted) && registerFormControl.email.errors?.required">
+                            Email is required
+                        </span>
+                        <span class="text-danger"
+                            *ngIf="registerFormControl.email.touched && registerFormControl.email.errors?.email">
+                            Enter a valid email address
+                        </span>
+                        <span class="text-danger"
+                        *ngIf="registerFormControl.email.touched && registerFormControl.email.errors?.userNameNotAvailable">
+                        Email {{registerFormControl.email.value}} is already registered."
+                    </span>
+                    
+                    </div>
+                 
+                    <div class="form-group mt-2">
+                        <label>Password</label>
+                        <input type="password" class="form-control mt-2" formControlName="password">
+                        <span class="text-danger"
+                            *ngIf="(registerFormControl.password.touched || submitted) && registerFormControl.password.errors?.required">
+                            Password is required
+                        </span>
+                        <span class="text-danger"
+                            *ngIf="registerFormControl.password.touched && registerFormControl.password.errors?.pattern">
+                            Password should have minimum 8 characters, at least 1 uppercase letter, 1 lowercase
+                            letter and 1 number
+                        </span>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label>Confirm Password</label>
+                        <input type="password" class="form-control mt-2" formControlName="confirmPassword">
+                        <span class="text-danger"
+                            *ngIf="(registerFormControl.confirmPassword.touched || submitted)&& registerFormControl.confirmPassword.errors?.required">
+                            Confirm Password is required
+                        </span>
+                        <span class="text-danger"
+                            *ngIf="registerFormControl.confirmPassword.touched && registerFormControl.confirmPassword.errors?.passwordMismatch">
+                            Passwords doesnot match
+                        </span>
+                    </div>
+                    <div class="form-group mt-2">
+                        <button type="submit" class="btn btn-success" [disabled]="submitted">Register</button>
+                    </div>
+                </form>
+                <div *ngIf="successMsg" [innerHTML]="successMsg" class="alert alert-success" role="alert">
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

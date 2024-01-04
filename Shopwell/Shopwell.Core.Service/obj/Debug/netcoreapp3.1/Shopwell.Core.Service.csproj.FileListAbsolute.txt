@@ -1,0 +1,10 @@
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\obj\Debug\netcoreapp3.1\Shopwell.Core.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\obj\Debug\netcoreapp3.1\Shopwell.Core.Service.AssemblyInfoInputs.cache
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\obj\Debug\netcoreapp3.1\Shopwell.Core.Service.AssemblyInfo.cs
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\obj\Debug\netcoreapp3.1\Shopwell.Core.Service.csproj.CoreCompileInputs.cache
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\bin\Debug\netcoreapp3.1\Shopwell.Core.Service.deps.json
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\bin\Debug\netcoreapp3.1\Shopwell.Core.Service.dll
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\bin\Debug\netcoreapp3.1\Shopwell.Core.Service.pdb
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\obj\Debug\netcoreapp3.1\Shopwell.Core.Service.dll
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\obj\Debug\netcoreapp3.1\Shopwell.Core.Service.pdb
+D:\Projects\Ecom\Shopwell\Shopwell.Core.Service\obj\Debug\netcoreapp3.1\Shopwell.Core.Service.csproj.AssemblyReference.cache

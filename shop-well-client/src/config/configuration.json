@@ -1,0 +1,7 @@
+{
+    "apiServer": {
+      "url": "https://localhost:44375",
+      "version": "v1"
+    },
+    "allowedDomains" : ["localhost:44375","localhost:4200"]
+}
